@@ -15,7 +15,7 @@ Install it yourself as:
 ```
 $ gem install fastgem
 ```
-![](https://neu1-api.asm.skype.com/v1/objects/0-neu-d3-847580697a3f438022005e3ac58d56f6/views/imgpsh_fullsize)
+![](https://cloud.githubusercontent.com/assets/7424863/12011037/5bb30e08-acf1-11e5-9a9d-db3685af0621.jpg)
 
 ## Use
 in your terminal
