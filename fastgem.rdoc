@@ -1,0 +1,5 @@
+= fastgem
+
+Generate this with
+    fastgem rdoc
+After you have described your command line interface
