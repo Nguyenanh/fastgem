@@ -21,7 +21,9 @@ $ gem install fastgem
 
 ## User
 in your terminal
-`fastgem search 'name-gem-you-want-seach'
+```
+fastgem search 'name-gem-you-want-seach'
+```
 
 ## Contributing
 
