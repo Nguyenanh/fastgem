@@ -1,4 +1,5 @@
 # Fastgem
+![](https://badge.fury.io/rb/fastgem.svg)
 
 Fastgem is a terminal client for search ruby gem.
 Only supports Ruby 1.9 and later.
