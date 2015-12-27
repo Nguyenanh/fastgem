@@ -15,8 +15,9 @@ Install it yourself as:
 ```
 $ gem install fastgem
 ```
+![](https://neu1-api.asm.skype.com/v1/objects/0-neu-d3-847580697a3f438022005e3ac58d56f6/views/imgpsh_fullsize)
 
-## User
+## Use
 in your terminal
 ```
 fastgem search 'name-gem-you-want-seach'
