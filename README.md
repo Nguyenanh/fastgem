@@ -1,15 +1,12 @@
 # Fastgem
 
-Facy is a terminal client for facebook, which support streaming-like feature.
+Fastgem is a terminal client for search ruby gem.
 Only supports Ruby 1.9 and later.
-To install facy, we need ruby pre-installed, please refer to https://www.ruby-lang.org/en/installation/ to know how to install ruby.
+To install fastgem, we need ruby pre-installed, please refer to https://www.ruby-lang.org/en/installation/ to know how to install ruby.
 I recommend rvm to control the version of installed ruby.
 
 
 - **Homepage**: https://github.com/Nguyenanh/fastgem
-
-
-Imageview by asii-art also available by option config, however image quality is quite bad, so it seems quite useless.
 
 
 
