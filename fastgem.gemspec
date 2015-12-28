@@ -19,7 +19,7 @@ spec = Gem::Specification.new do |s|
   s.add_development_dependency('rake')
   s.add_development_dependency('rdoc')
   s.add_development_dependency('aruba')
-  s.add_development_dependency('rainbow', '2.0')
+  s.add_runtime_dependency('rainbow', '2.0')
   s.add_runtime_dependency('gli','2.13.4')
   s.add_runtime_dependency('terminal-table', '1.5.2')
 end
