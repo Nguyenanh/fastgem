@@ -1,8 +1,10 @@
 PATH
   remote: .
   specs:
-    fastgem (0.0.2)
+    fastgem (0.1.8)
       gli (= 2.13.4)
+      rainbow (= 2.0)
+      terminal-table (= 1.5.2)
 
 GEM
   remote: https://rubygems.org/
@@ -53,7 +55,5 @@ PLATFORMS
 DEPENDENCIES
   aruba
   fastgem!
-  rainbow (= 2.0)
   rake
   rdoc
-  terminal-table (= 1.5.2)

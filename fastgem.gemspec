@@ -12,14 +12,14 @@ spec = Gem::Specification.new do |s|
 ")
   s.require_paths << 'lib'
   s.has_rdoc = true
-  s.extra_rdoc_files = ['README.rdoc','fastgem.rdoc']
+  s.extra_rdoc_files = ['README.rdoc', 'fastgem.rdoc']
   s.rdoc_options << '--title' << 'fastgem' << '--main' << 'README.rdoc' << '--ri'
   s.bindir = 'bin'
-  s.executables << "fastgem"
+  s.executables << 'fastgem'
   s.add_development_dependency('rake')
   s.add_development_dependency('rdoc')
   s.add_development_dependency('aruba')
   s.add_runtime_dependency('rainbow', '2.0')
-  s.add_runtime_dependency('gli','2.13.4')
+  s.add_runtime_dependency('gli', '2.13.4')
   s.add_runtime_dependency('terminal-table', '1.5.2')
 end

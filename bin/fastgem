@@ -4,7 +4,7 @@ require 'fastgem'
 
 include GLI::App
 
-program_desc 'Search Gem from Rubygem colors'
+program_desc 'Search Gem from Rubygem.org colors'
 
 version Fastgem::VERSION
 
@@ -21,16 +21,12 @@ flag [:f,:flagname]
 
 
 desc 'Search gem with keywork command line'
-arg_name 'Search Top 10 Gem'
+arg_name 'foo'
 command :search do |c|
-  c.desc 'Describe a switch to new'
-  c.switch :s
-
-  c.desc 'Describe a flag to new'
-  c.default_value 'default'
-  c.flag :f
+  c.desc 'Order by count downloads'
+  c.switch :d
   c.action do |global_options,options,args|
-    Fastgem.search(args[0])
+    Fastgem.search(args[0], options)
   end
 end
 exit run(ARGV)
