@@ -27,7 +27,10 @@ To find which gems contain the string "foo", you would type:
 ```
 $ fastgem search 'foo'
 ```
-
+To add option order by count doanloads, you would type:
+```
+$ fastgem search -d 'foo'
+```
 ## Contributing
 
 1. Fork the project ( https://github.com/Nguyenanh/fastgem/fork )
