@@ -39,5 +39,5 @@ $ fastgem search -d 'foo'
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new pull request with a description of your changes
 
-## Feature-v0.2.8
+## Features-v0.2.0
 * Push Gem on RubyGem via terminal color progress 
